@@ -24,5 +24,7 @@ namespace MvcMovie.Data
         }
 
         public DbSet<Movie> Movie { get; set; }
+
+        public DbSet<Actor> Actor { get; set; }
     }
 }
